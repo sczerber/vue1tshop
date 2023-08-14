@@ -8,12 +8,14 @@
 
     <p>This is cart!</p>
     <p v-if="!CART.length">Your cart is empty</p>
+    <div class="v-cart-item__container">
     <v-cart-item
     v-for="(item, index) in CART"
     :key="item.article"
     :cart_item_data="item"
     @deleteFromCart="deleteFromCart(index)"
     />
+    </div>
   </div>
 </template>
 
@@ -49,5 +51,9 @@ export default {
 </script>
 
 <style scoped>
-
+.v-cart-item__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
 </style>

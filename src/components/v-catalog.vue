@@ -1,7 +1,7 @@
 <template>
   <router-link :to="{name: 'cart', params:{cart_data: CART}}">
     <div class="v-catalog-cart-icon">
-      cart: {{CART.length}}
+      Your cart items: {{CART.length}}
     </div>
   </router-link>
 
@@ -55,5 +55,15 @@ export default {
   max-width: 1040px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+}
+.v-catalog-cart-icon {
+  margin-bottom: 20px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 3;
+  background: yellow;
+  border: black;
+  padding: 10px;
 }
 </style>
