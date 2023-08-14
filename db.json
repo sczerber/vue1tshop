@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "image": "birds.jpg",
+      "name": "Чайки",
+      "price": 21,
+      "article": "T1",
+      "available": true,
+      "category": "Animals"
+    },
+    {
+      "image": "castle.jpg",
+      "name": "Замок",
+      "price": 3150000,
+      "article": "T2",
+      "available": true,
+      "category": "Buildings"
+    },
+    {
+      "image": "destroyer.jpg",
+      "name": "Блыскавица",
+      "price": 4200,
+      "article": "T3",
+      "available": false,
+      "category": "Ships"
+    },
+    {
+      "image": "museum.jpg",
+      "name": "Музей",
+      "price": 5300,
+      "article": "T4",
+      "available": true,
+      "category": "Buildings"
+    },
+    {
+      "image": "pirates.jpg",
+      "name": "Старый корабль",
+      "price": 6500,
+      "article": "T5",
+      "available": false,
+      "category": "Ships"
+    },
+    {
+      "image": "railwaystation.jpg",
+      "name": "ЖД вокзал",
+      "price": 8700,
+      "article": "T6",
+      "available": true,
+      "category": "Buildings"
+    },
+    {
+      "image": "sea.jpg",
+      "name": "Море",
+      "price": 8700,
+      "article": "T7",
+      "available": true,
+      "category": "Nature"
+    },
+    {
+      "image": "seaboat.jpg",
+      "name": "Море с лодкой",
+      "price": 8700,
+      "article": "T8",
+      "available": true,
+      "category": "Nature"
+    },
+    {
+      "image": "statue.jpg",
+      "name": "Статуя",
+      "price": 8700,
+      "article": "T9",
+      "available": true,
+      "category": "Buildings"
+    }
+  ]
+}
