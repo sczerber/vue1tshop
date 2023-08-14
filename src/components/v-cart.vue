@@ -3,7 +3,8 @@
   <div class="v-cart">
 
     <router-link :to="{name: 'catalog'}">
-      <button>Back to catalog</button>
+
+      <button class="btn">Back to catalog</button>
     </router-link>
 
     <p>This is cart!</p>

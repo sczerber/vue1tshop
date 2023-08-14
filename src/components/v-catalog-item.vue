@@ -42,4 +42,7 @@ export default {
     margin-top: auto;
     padding-top: 10px;
   }
+  h3 {
+    font-size: 16px;
+  }
 </style>

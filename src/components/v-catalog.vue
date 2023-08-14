@@ -1,7 +1,8 @@
 <template>
   <router-link :to="{name: 'cart', params:{cart_data: CART}}">
     <div class="v-catalog-cart-icon">
-      Your cart items: {{CART.length}}
+      <i class="medium material-icons">local_grocery_store</i>
+       {{CART.length}}
     </div>
   </router-link>
 
@@ -65,5 +66,8 @@ export default {
   background: yellow;
   border: black;
   padding: 10px;
+}
+h3 {
+  font-size: 16px;
 }
 </style>
